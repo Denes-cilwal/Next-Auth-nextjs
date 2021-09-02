@@ -7,8 +7,8 @@ export default NextAuth = {
     //configure authentication providers..
     providers:[
         Providers.GitHub({
-            clientId:"",
-            clientSecret:""
+            clientId:process.env.GITHUB_ID,
+            clientSecret:process.env.GITHUB_SECRET
         }),
         Providers.Twitter({
             clientId:"",
