@@ -6,7 +6,7 @@ export default NextAuth = {
 
     //configure authentication providers..
     providers:[
-        Providers.Github({
+        Providers.GitHub({
             clientId:"",
             clientSecret:""
         }),
