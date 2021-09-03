@@ -1,8 +1,8 @@
-import NextAuth from "next-auth"
-import Providers from "next-auth/providers"
+import NextAuth from "next-auth";
+import Providers from "next-auth/providers";
 
-// providers array handling all providers
-export default NextAuth = {
+// providers array handling all providers;
+export default NextAuth ({
 
     //configure authentication providers..
     providers:[
@@ -27,3 +27,4 @@ export default NextAuth = {
         })
     ]
 }
+)
